@@ -47,7 +47,7 @@ jobs:
       - name: 'IPTV检查'
         run: /opt/hostedtoolcache/node/14.18.3/x64/bin/iptv-checker cn1080.m3u -o cn_1080
 
-      - name: '移动iptv-checker检查结果'
+      - name: 'iptv-checker检查结果'
         run: mv cn_1080/online.m3u cn_1080/cn1080.m3u
 
       - name: 'Push branch'
