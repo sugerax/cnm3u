@@ -30,7 +30,7 @@ jobs:
         run: npm install -g iptv-checker
 
       - name: '获取m3u列表'
-        run: wget https://iptv-org.github.io/iptv/countries/cn.m3u 2>/dev/null -O cn.m3u
+        run: wget https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8 2>/dev/null -O cn.m3u8
 
       # 执行更新代码
       - name: 'Update cn m3u'
