@@ -30,7 +30,7 @@ jobs:
         run: npm install -g iptv-checker
 
       - name: '获取m3u列表'
-        run: wget https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8 2>/dev/null -O cn.m3u8
+        run: wget https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8 2>/dev/null -O playlist.m3u8
 
       # 执行更新代码
       - name: 'Update cn m3u'
@@ -40,7 +40,7 @@ jobs:
       #   run: cat custom_list/50fps_4k.m3u custom_list/aqiyi_4k.m3u >> cn1080.m3u
 
       - name: '按黑白名单过滤'
-        run: python filter_m3u8.py >> cn1080.m3u
+        run: python filter_m3u.py >> cn1080.m3u
 
       # TODO: 用更好的方式获取iptv-checker path
       # 执行检查
