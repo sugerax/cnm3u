@@ -37,4 +37,4 @@ https://kaigedong.github.io/cnm3u/cn1080.m3u
 
 - [ ] 按需要修改黑/白名单
 
-- [ ] 最后生成的自己的链接为 https://{你的 github 用户名}.github.io/cnm3u/cn1080.m3u
+- [ ] 最后生成的自己的链接为 https://sugerax.github.io/cnm3u/cn1080.m3u
