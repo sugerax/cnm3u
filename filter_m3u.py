@@ -39,7 +39,7 @@ def isInBlack(aStr):
     return False
 
 
-with open("cn.m3u", 'r') as fin:
+with open("playlist.m3u8", 'r') as fin:
     allLines = fin.readlines()
     fileLength = len(allLines)
     index = 0
